@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "src/actions/create-comment.js",
+    "src/actions/create-post.js",
+    "src/actions/create-topic.js",
+    "src/actions/index.js",
+    "src/actions/sign-in.js",
+    "src/actions/sign-out.js",
+    "src/components/topics/topic-create-form.jsx",
+    "src/components/topics/topic-list.jsx",
+    "src/components/posts/post-create-form.jsx",
+    "src/components/common/form-button.jsx",
+    "src/app/topics/[slug]/posts/[postId]/page.jsx",
+    "src/app/topics/[slug]/posts/new/page.jsx",
+    "src/app/topics/[slug]/page.jsx",
+    "src/app/api/auth/[...nextauth]/route.js",
+    "src/app/layout.js",
+    "src/app/page.js",
+    "src/app/providers.js",
+    "src/components/header-auth.js",
+    "src/components/header.js",
+    "src/components/profile.js",
+    "src/db/index.js",
+    "src/auth.js",
+    "src/paths.js",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
